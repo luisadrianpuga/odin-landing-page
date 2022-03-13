@@ -3,6 +3,13 @@
     margin: 0;
     font-size: 12px;
 }
+
+head{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+}
 /* This applies a moving background to the website*/
 body{
     background-image: url('http://i.stack.imgur.com/kx8MT.gif');
@@ -12,68 +19,43 @@ body{
     padding:0;
     margin:0;
 }
-/* Basic styling */
-* {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-}
 
-nav {
-    background: #222;
-    width: 100%;
-    padding-left: 30px;
-    padding-right: 10px;
-}
-
-.box-one{
-    display: flex;
- 
-
-}
-
-.menu,
-
-
-.item.button {
-    padding: 9px 5px;
-}
-
-.menu {
-  
-   
-    /* This aligns items to the end line on main-axis */
-    justify-content: flex-end;
-    display: flex; 
-
-}
-
-.logo a {
-   
-    font-size: 40px;
-    text-decoration: none;
-    color: white;
+/* Begins Flex Styling for The Header */
+    .site-header {
+        background-color: #1F2937;
+        padding: 10px 20px;
     
+    }
 
-}
-.menu-inner{
-   
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-}
-.item {
-    padding: 10px;
-    color: white;
-    list-style: none;
-    display: flex; 
-   
-}
-.item a {
+    .site-header nav{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .site-header nav ul {
+        display: flex;
+        
+        
+    }
     
-    
-    padding: 10px 15px;
-    text-decoration: none;
-    color: white;
-}
+    /* Logo styling*/
+    .brand {
+        color: white;
+        text-decoration: none;
+        font-size: 80px;
+        margin-left: 5%;
+    }
+    .item  {
+        list-style: none;
+    }
+    .item a{
+        color: white;
+        
+        font-size: 16px;
+        text-decoration: none;
+        padding: 10px;
+    }
+
+/* End of Header Syling */
 
