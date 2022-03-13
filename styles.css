@@ -5,6 +5,7 @@
 }
 
 head{
+    
     display: flex;
     justify-content: center;
     width: 100%;
@@ -21,41 +22,41 @@ body{
 }
 
 /* Begins Flex Styling for The Header */
-    .site-header {
-        background-color: #1F2937;
-        padding: 10px 20px;
+.site-header {
     
-    }
+    background-color: #1F2937;
+    padding: 10px 20px;
 
-    .site-header nav{
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    }
+}
 
-    .site-header nav ul {
-        display: flex;
-        
-        
-    }
+.site-header nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.site-header nav ul {
+    display: flex;
     
-    /* Logo styling*/
-    .brand {
-        color: white;
-        text-decoration: none;
-        font-size: 80px;
-        margin-left: 5%;
-    }
-    .item  {
-        list-style: none;
-    }
-    .item a{
-        color: white;
-        
-        font-size: 16px;
-        text-decoration: none;
-        padding: 10px;
-    }
+    
+}
+
+/* Logo styling*/
+.brand {
+    color: white;
+    text-decoration: none;
+    font-size: 80px;
+    margin-left: 5%;
+}
+.item  {
+    list-style: none;
+}
+.item a{
+    color: white;
+    
+    font-size: 16px;
+    text-decoration: none;
+    padding: 10px;
+}
 
 /* End of Header Syling */
-
