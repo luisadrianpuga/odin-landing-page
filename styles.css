@@ -10,6 +10,7 @@ head{
     justify-content: center;
     width: 100%;
     align-items: center;
+    font-family: sans-serif;
 }
 /* This applies a moving background to the website*/
 body{
@@ -45,7 +46,7 @@ body{
 .brand {
     color: white;
     text-decoration: none;
-    font-size: 80px;
+    font-size: 24px;
     margin-left: 5%;
 }
 .item  {
@@ -54,9 +55,38 @@ body{
 .item a{
     color: white;
     
-    font-size: 16px;
+    font-size: 18px;
     text-decoration: none;
     padding: 10px;
 }
 
 /* End of Header Syling */
+
+/*Beginning of body styling*/
+.banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.inner1  h2{
+    color: white;
+    font-size: 48px;
+}
+
+.inner-inner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inner1 p {
+    color: #E5E7E8;
+    font-size: 18px;
+}
+
+.inner2  {
+    width: 100px;
+}
+
+
