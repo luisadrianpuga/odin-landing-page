@@ -67,26 +67,97 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-   
+    padding: 10px 20px;
+}
+
+.inner1 {
+    margin: 100px;
+    padding: 10px;
 }
 
 .inner1  h2{
     color: white;
     font-size: 48px;
+    
 }
 
-.inner-inner {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.myButton {
+	background-color:#3882f6;
+	border-radius:28px;
+	border:1px solid #3882f6;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
 }
+
+
 .inner1 p {
     color: #E5E7E8;
     font-size: 18px;
 }
 
-.inner2  {
-    width: 100px;
+.inner2  img{
+    width: 700px;
+    height: 250px;
 }
 
+/*End of head banner*/
+
+/*Start of Some Random Information*/
+
+.flex-container {
+    display: flex;
+    flex-direction: column; 
+  }
+  
+  /* this selector selects all divs inside of .flex-container */
+  .flex-container div {
+    background: white;
+    height: 200px;
+    flex: 1 1 auto;
+  }
+
+  .container {
+    height: 140px;
+    padding: 16px;
+    border: 4px solid #3882f6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    
+  }
+  
+  .one {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  .one h2{
+    font-size: 36px;
+    color: #1f2937;
+    
+  }
+  .item1 {
+    width: 50px;
+    height: 60px;
+    border: 4px solid #3882f6;
+    background: skyblue;
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .item1-1 {
+      width: 50px;
+      height: 20px;
+  }
+
+/*End of Some Random Information*/
 
