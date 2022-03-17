@@ -207,3 +207,19 @@ body{
     flex: 1 1 auto;
   }
 /*End of the quote container*/
+
+/*Start of the block container*/
+.block-container div {
+    background: white;
+    height: 200px;
+    flex: 1 1 auto;
+  }
+/*End of the block container*/
+
+/*Start of the block container*/
+.footer-container div {
+    background: #1F2937;
+    height: 200px;
+    flex: 1 1 auto;
+  }
+/*End of the block container*/
