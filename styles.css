@@ -43,6 +43,50 @@ body{
     
     
 }
+/* WELCOME */
+.welcome {
+  padding: 7em 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2em;
+}
+
+.welcome .left {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.welcome .right {
+  flex-shrink: 0;
+  width: 50%;
+}
+
+.hero {
+  color: #F9FAF8;
+  font-weight: 900;
+  font-size: 48px;
+}
+
+button {
+  padding: 7px 1em;
+  width: 120px;
+  background-color: #3882F6;
+  border-radius: 8px;
+}
+
+.welcome button {
+  border: none;
+}
+
+.image {
+  background-color: gray;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 215px;
+}
 
 /* Logo styling*/
 .brand {
@@ -65,26 +109,71 @@ body{
 /* End of Header Syling */
 
 /*Beginning of body styling*/
-.banner {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 10px 20px;
+/* CARD SECTION */
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 13em;
+  margin-top: 3em;
 }
 
-.inner1 {
-    margin: 100px;
-    padding: 10px;
+main h2 {
+  font-size: 36px;
+  font-weight: 900;
+  color: #1f2937;
 }
 
-.inner1  h2{
-    color: white;
-    font-size: 48px;
-    
+.card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 3em 0 6em 0;
 }
+
+.card {
+  text-align: center;
+  max-width: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: .5em;
+}
+
+.square {
+  border: 4px solid #3882F6;
+  border-radius: 20px;
+  width: 160px;
+  height: 160px;
+}
+
+/* QUOTE */
+.quote {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #E5E7EB;
+  padding: 7em 13em;
+}
+
+.quote p {
+  align-self: flex-end;
+  font-weight: bolder;
+  font-size: 24px;
+  color: #1f2937;
+}
+
+.quote em {
+  font-size: 36px;
+  font-weight: 100;
+  color: #1f2937;
+}
+
 
 .myButton {
 	background-color:#3882f6;
+  border-color: #1F2937;
 	border-radius:28px;
 	border:1px solid #3882f6;
 	display:inline-block;
@@ -98,16 +187,6 @@ body{
 }
 
 
-.inner1 p {
-    color: #E5E7E8;
-    font-size: 18px;
-}
-
-.inner2  img{
-    margin: 100px;
-    width: 400px;
-    height: 250px;
-}
 
 /*End of head banner*/
 
@@ -218,40 +297,43 @@ body{
 /*End of the quote container*/
 
 /*Start of the block container*/
-.block-container div {
-    height: 100px;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-
-  .block {
-    padding: 20px;
-  
-    border: 1px solid blue;
-  }
-
-  .inner-block-foot{
-    background-color: #3882f6;
-    padding: 5px;
-    width: 20px;
-    height: 20px;
-    margin: 10px;
-    line-height: 20px;
-    color: white;
-    font-weight: bold;
-    font-size: 2em;
-    text-align: center;
+/* SIGN UP */
+.sign-up {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5em 13em;
 }
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #3882F6;
+  padding: 3em;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.container button {
+  border: 2px solid #FFF;
+}
+
+strong {
+  font-size: 24px;
+  color: #FFF;
+}
+
 /*End of the block container*/
 
 /*Start of the block container*/
-.footer-container div {
-    background: #1F2937;
-    color: #1F2937; 
-    height: 200px;
-    flex: 1 1 auto;
-  }
+/* FOOTER */
+footer {
+  background-color: #1f2937;
+  color: #FFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2em 0;
+}
 /*End of the block container*/
